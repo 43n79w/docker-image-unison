@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:hirsute
 
 RUN apt-get update && apt-get -y install time unison supervisor bash inotify-tools ruby tzdata monit
 
